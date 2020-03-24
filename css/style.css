@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+html {
+  width: 1440px;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;  
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 22px;
+}
+/* Utility Classes */
+
+.h-big {
+  font-size:2.8rem ;
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+}
+
+.h-medium {
+  font-size:2.1rem ;
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+}
+
+.h-small {
+  font-size:1.6rem ;
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+}
+
+.p-big {
+  color: hsl(201, 11%, 66%);
+  padding-top: 1.2rem;
+  font-size:  1.313rem;
+}
+
+.p-medium {
+  color: hsl(201, 11%, 66%);
+  padding-top: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.p-small {
+  color: hsl(201, 11%, 66%);
+  font-size: 1rem;
+}
+
+
+.btn-blue {
+    display: inline-block;
+    color: #fff;
+    background: hsl(233, 100%, 69%);
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 55px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1.2rem;
+}
+
+.btn-green {
+  display: inline-block;
+  color: #fff;
+  background: hsl(171, 66%, 44%);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 55px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+}
+
+.margin-1 {
+  margin-top: 100px;
+}
+
+.margin-2 {
+  margin-top: 80px;
+}
+
+.margin-3 {
+  margin-top: 60px;
+}
+
+.margin-100 {
+  margin-left:-120px ;
+}
+
+/* Header */
+
+
+
+#header .logo {
+  background-image: url(../images/bg-header-desktop.png) ;
+  height: 100%;
+  text-align: center;
+  padding-top: 122px;
+}
+
+
+
+
+
+.text {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+
+
+#header .container-button {
+  text-align: center;
+  margin: 2.5rem;
+}
+
+.sizing {
+  margin-top: 185px;
+}
+
+.split {
+  margin-top: 75px;
+  display: flex;
+  
+}
+
+.split img {
+  width: 719px;
+  height: 574px;
+}
+
+.split .pic-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 112px ;
+  margin-top: 53px;
+  
+}
+
+.split .pic-text-container .text-right {
+  margin-bottom:45px  ;
+}
+
+
+
+.access-clipboard img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supercharge .text-center {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icons img {
+width: 43px;
+height: 40px;
+}
+
+.icons .icon {
+  text-align: center;
+  margin: 1rem;
+}
+
+.ibm {
+  display: flex;
+  justify-content: center;
+}
+
+.ibm img {
+  margin: 0 40px;
+}
+
+.before-footer .container-button {
+  text-align: center;
+  margin: 2.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.footer .logo img {
+  width: 57px;
+  height: 56px;
+}
+
+.footer p {
+  font-weight: bold;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem
+}
+
+.footer .icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 0.75rem;
+}
+
+

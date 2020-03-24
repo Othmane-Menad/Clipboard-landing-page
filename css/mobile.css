@@ -1,0 +1,114 @@
+@media(max-width:375px) {
+
+  html {
+    width: 375px;
+  }
+
+  #header .logo {
+    background-image: url(../images/bg-header-mobile.png) ;
+    height: 100%;
+    text-align: center;
+    padding-top: 122px;
+  }
+
+#header .text h1  {
+font-size: 2.2rem;
+}
+
+#header .text p  {
+  font-size: 1.1rem;
+  
+  }
+
+  #header .container-button .btn-green {
+    padding: 0.75rem 4rem;
+    margin-bottom: 1.5rem;
+    
+  }
+
+  #header .container-button .btn-blue {
+    padding: 0.75rem 4rem;
+    
+  }
+
+  .sizing .text p {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+  }
+
+.split {
+display: block;
+text-align: center;
+}
+  .split img {
+    width: 314px;
+    height: 239px;
+    margin-left: 1.4rem;
+  }
+
+  .split .pic-text-container h3 {
+margin-bottom: 0.75rem;
+  }
+
+  .access-clipboard img {
+    width: 310px;
+    height: 184px;
+  }
+.supercharge {
+  margin-bottom: 5rem;
+}
+  .icons  {
+    display: block;
+    
+  }
+
+  .icons .icon {
+    margin: 3rem;
+  }
+
+  .icons .icon h3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .ibm {
+    display: block;
+    text-align: center;
+  }
+
+  .ibm img {
+    margin-bottom: 4rem;
+  }
+
+  .before-footer .container-button .btn-green {
+    padding: 0.75rem 4rem;
+    margin-bottom: 1.5rem;
+    
+  }
+
+  .before-footer .container-button .btn-blue {
+    padding: 0.75rem 4rem;
+    
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .footer .logo img {
+margin-bottom: 2rem;
+  }
+
+  .footer p {
+margin-left: 15px;
+margin-bottom: 1rem;
+  }
+
+  .footer .icons img {
+    margin: 1rem;
+  }
+
+  .before-footer .text {
+    padding-top: 0px;
+  }
+}
