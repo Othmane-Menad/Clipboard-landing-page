@@ -1,4 +1,4 @@
-# Frontend Mentor - Clipboard landing page
+# Clipboard landing page
 
 ## Welcome! 👋
 
