@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap");
 
 * {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Bai Jamjuree', sans-serif;  
+  font-family: "Bai Jamjuree", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -24,19 +25,19 @@ p {
 /* Utility Classes */
 
 .h-big {
-  font-size:2.8rem ;
+  font-size: 2.8rem;
   font-weight: bold;
   color: hsl(210, 10%, 33%);
 }
 
 .h-medium {
-  font-size:2.1rem ;
+  font-size: 2.1rem;
   font-weight: bold;
   color: hsl(210, 10%, 33%);
 }
 
 .h-small {
-  font-size:1.6rem ;
+  font-size: 1.6rem;
   font-weight: bold;
   color: hsl(210, 10%, 33%);
 }
@@ -44,7 +45,7 @@ p {
 .p-big {
   color: hsl(201, 11%, 66%);
   padding-top: 1.2rem;
-  font-size:  1.313rem;
+  font-size: 1.313rem;
 }
 
 .p-medium {
@@ -58,16 +59,15 @@ p {
   font-size: 1rem;
 }
 
-
 .btn-blue {
-    display: inline-block;
-    color: #fff;
-    background: hsl(233, 100%, 69%);
-    padding: 0.75rem 2rem;
-    border: none;
-    border-radius: 55px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    font-size: 1.2rem;
+  display: inline-block;
+  color: #fff;
+  background: hsl(233, 100%, 69%);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 55px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1.2rem;
 }
 
 .btn-green {
@@ -77,7 +77,7 @@ p {
   padding: 0.75rem 2rem;
   border: none;
   border-radius: 55px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 1.2rem;
   margin-right: 0.75rem;
 }
@@ -95,30 +95,22 @@ p {
 }
 
 .margin-100 {
-  margin-left:-120px ;
+  margin-left: -120px;
 }
 
 /* Header */
 
-
-
 #header .logo {
-  background-image: url(../images/bg-header-desktop.png) ;
+  background-image: url(../images/bg-header-desktop.png);
   height: 100%;
   text-align: center;
   padding-top: 122px;
 }
 
-
-
-
-
 .text {
   text-align: center;
   padding-top: 3rem;
 }
-
-
 
 #header .container-button {
   text-align: center;
@@ -132,7 +124,6 @@ p {
 .split {
   margin-top: 75px;
   display: flex;
-  
 }
 
 .split img {
@@ -143,16 +134,13 @@ p {
 .split .pic-text-container {
   display: flex;
   flex-direction: column;
-  margin: 0 112px ;
+  margin: 0 112px;
   margin-top: 53px;
-  
 }
 
 .split .pic-text-container .text-right {
-  margin-bottom:45px  ;
+  margin-bottom: 45px;
 }
-
-
 
 .access-clipboard img {
   display: block;
@@ -167,12 +155,11 @@ p {
 .icons {
   display: flex;
   justify-content: center;
-  
 }
 
 .icons img {
-width: 43px;
-height: 40px;
+  width: 43px;
+  height: 40px;
 }
 
 .icons .icon {
@@ -208,7 +195,7 @@ height: 40px;
 .footer p {
   font-weight: bold;
   color: hsl(210, 10%, 33%);
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .footer .icons img {
@@ -216,5 +203,3 @@ height: 40px;
   height: 24px;
   margin: 0 0.75rem;
 }
-
-
