@@ -9,12 +9,8 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-<br>
-
 ---
 
 ## [Live Display](https://othman31.github.io/Clipboard-landing-page)
-
-<br>
 
 ![scrn](./images/scrn.png)
